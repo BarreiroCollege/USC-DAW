@@ -118,8 +118,9 @@ categorías.
     </p>
     <p>Aquí escribo un nuevo párrafo</p>
     <p>
-        Aquí marco una posición dentro del párrafo, para ser <a id="otroParrafo">referenciada</a>
-        desde otra posición de la página.
+        Aquí marco una posición dentro del párrafo, para ser
+        <a id="otroParrafo">referenciada</a> desde otra posición de
+        la página.
     </p>
     <h3 id="esteOtroParrafo">Normalmente se referencian las cabeceras</h3>
     </body>
@@ -216,10 +217,90 @@ categorías.
 
     <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/dl.html"></iframe>
 
-
 ### Etiqueta de Imágen
 
+- **Imagen**: `<img>`
+
+=== "Ejemplo"
+
+    ```html
+    <html>
+    <head>
+        <title>Mi cuarta página web</title>
+    </head>
+    
+    <body>
+    <h1>Este es el encabezamiento</h1>
+    <p>
+        Ahora vamos a insertar imágenes.<br/>
+        Se permiten usar los tipos más comunes.
+    </p>
+    <p>PNG <img src="https://github.com/barreeeiroo.png?s=128"/></p>
+    </body>
+    </html>
+    ```
+
+=== "Previsualización"
+
+    <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/imagen.html"></iframe>
+
 ### Etiquetas de Tablas
+
+- **Tabla**: `<table>`
+- **Título**: `<caption>`
+- **Cabecera**: `<thead>`, `<th>`
+- **Fila**: `<tr>`
+- **Datos**: `<tbody>`, `<td>`
+- **Pie**: `<tfoot>`
+
+!!! faq "Etiquetas semánticas"
+
+    El uso de `<thead>`, `<tbody>` y `<tfoot>` es totalmente opcional: son etiquetas semánticas que ayudan a
+    identificar el contenido de la tabla, pero que a nivel de renderizado no se tienen en cuenta.
+
+=== "Ejemplo"
+
+    ```html
+    <html>
+    <head>
+        <title>Mi quinta página web</title>
+    </head>
+    
+    <body>
+    <table>
+        <caption>Tabla I</caption>
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+        <tr>
+            <td>Antonio</td>
+            <td>Pérez García</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Rodríguez López</td>
+        </tr>
+        </tbody>
+        
+        <tfoot>
+        <tr>
+            <td>Pepito</td>
+            <td>Grillo</td>
+        </tr>
+        </tfoot>
+    </table>
+    </body>
+    </html>
+    ```
+
+=== "Previsualización"
+
+    <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/tabla.html"></iframe>
 
 ## HTML 5
 
