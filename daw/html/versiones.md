@@ -11,14 +11,14 @@ manteniendo el validador [validator.w3.org](http://validator.w3.org/).
 === "HTML"
 
     ```html
-    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
     "http://www.w3.org/TR/html4/strict.dtd">
     ```
 
 === "XHTML"
 
     ```html
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     ```
 
@@ -36,7 +36,7 @@ Sólo se permite el uso de etiquetas actualmente aprobadas.
 === "XHTML"
 
     ```html
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     ```
 
@@ -54,7 +54,7 @@ Se permite el uso de etiquetas no aprobadas y obsoletas (como `<font>`).
 === "XHTML"
 
     ```html
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
     ```
 
