@@ -11,9 +11,9 @@ Algunas de las buenas prácticas más comunes son:
     - En los encabezados: `#!html <h1>`. 
     - Uso de los atributos `alt` en las imágenes: `#!html <img alt="..."/>`. 
 - **Uso de palabras clave explícitas**
-    - Etiquietas `meta` en `head`: `#!html <meta name="keywords" content="...,...,..."/>`.
+    - Etiquetas `meta` en `head`: `#!html <meta name="keywords" content="...,...,..."/>`.
 - **Inclusión de descripción explícita**
-    - Etiquietas `meta` en `head`: `#!html <meta name="description" content="....."/>`.
+    - Etiquetas `meta` en `head`: `#!html <meta name="description" content="....."/>`.
 
 ## Google Webmaster
 

@@ -21,7 +21,7 @@
 - **HTML 3.2**: Estandarización de etiqueitas propietarias, se incentiva a los navegadores a seguir los estándares.
 - **HTML 4.0**: Se separa el contenido del formato (CSS), creando estructuras.
 - **HTML 4.01**: Se fuerza a que cualquier elemento _de línea_ esté dentro de un elemento _de bloque_.
-- **XHTML 1.0**: Mantener la estructura de XML, y las etiquietas que abren es obligatorio cerrarlas.
+- **XHTML 1.0**: Mantener la estructura de XML, y las etiquetas que abren es obligatorio cerrarlas.
 - **HTML 5.0**: Se facilita el desarrollo de nuevos navegadores al haber menor compatibilidad con versiones obsoletas
   y aparecen nuevas etiquetas.
 
