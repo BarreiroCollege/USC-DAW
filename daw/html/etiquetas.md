@@ -58,7 +58,7 @@ categorías.
 
 === "Previsualización"
 
-    <iframe width=700, height=500 frameBorder=0 src="/html/ejemplos/tipografia.html"></iframe>
+    <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/tipografia.html"></iframe>
 
 ### Etiquetas de Formateo de Texto
 
@@ -69,7 +69,7 @@ categorías.
 - **Bloque de código**: `<pre>`
 
 === "Ejemplo"
-   
+
     ```html
     <html>
     <head>
@@ -95,9 +95,40 @@ categorías.
 
 === "Previsualización"
 
-    <iframe width=700, height=500 frameBorder=0 src="/html/ejemplos/formateo.html"></iframe>
+    <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/formateo.html"></iframe>
 
 ### Etiqueta de Hiperenlace
+
+- **Enlace** o **Ancla**: `<a>`
+
+=== "Ejemplo"
+
+    ```html hl_lines="9 12"
+    <html>
+    <head>
+        <title>Mi segunda página web</title>
+    </head>
+    
+    <body>
+    <h1>Este es el encabezamiento</h1>
+    <p>Aquí enlazo con una página <a href="http://www.usc.es">externa</a>.</p>
+    <p>Aquí enlazo con una posición diferente dentro de esta <a href="#otroParrafo">misma página</a>.</p> <!-- (1) -->
+    <p>Aquí escribo un nuevo párrafo</p>
+    <p>
+        Aquí marco una posición dentro del párrafo, para ser <a id="otroParrafo">referenciada</a>
+        desde otra posición de la página.
+    </p>
+    <h3 id="esteOtroParrafo">Normalmente se referencian las cabeceras</h3>
+    </body>
+    </html>
+    ```
+    
+    1. Se puede referenciar identificadores dentro de páginas externas, por ejemplo,
+       `#!html href="otraPagina.html#otraCosa"`.
+
+=== "Previsualización"
+
+    <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/enlace.html"></iframe>
 
 ### Etiquetas de Listas
 
