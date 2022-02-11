@@ -64,8 +64,10 @@ plugins:
       fallback_to_build_date: true
 
 markdown_extensions:
+  - abbr
   - codehilite
   - def_list
+  - footnotes
   # Markdown extensions: https://python-markdown.github.io/extensions/
   - admonition
   - toc:
@@ -92,5 +94,7 @@ markdown_extensions:
 
 # Site navigation in the side bar
 nav:
-  - Inicio:
+  - Introducción:
     - index.md
+    - HTML:
+      - index.md
