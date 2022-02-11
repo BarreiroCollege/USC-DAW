@@ -98,3 +98,10 @@ nav:
     - index.md
   - HTML:
     - html/index.md
+    - Publicación: html/publicacion.md
+    - Historia: html/historia.md
+    - Versiones: html/versiones.md
+    - Codificación: html/codificacion.md
+    - SEO: html/seo.md
+    - Robots: html/robots.md
+    - Debug: html/debug.md
