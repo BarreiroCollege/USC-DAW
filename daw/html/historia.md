@@ -26,6 +26,6 @@
   y aparecen nuevas etiquetas.
 
 
-[IETF]: Internet Engineering Task Force
-[W3C]: World Wide Web Consortium
-[WHATWG]: Web Hypertext Application Technology Working Group
+*[IETF]: Internet Engineering Task Force
+*[W3C]: World Wide Web Consortium
+*[WHATWG]: Web Hypertext Application Technology Working Group
