@@ -103,7 +103,7 @@ categorías.
 
 === "Ejemplo"
 
-    ```html hl_lines="9 12"
+    ```html hl_lines="11 15"
     <html>
     <head>
         <title>Mi segunda página web</title>
@@ -112,7 +112,10 @@ categorías.
     <body>
     <h1>Este es el encabezamiento</h1>
     <p>Aquí enlazo con una página <a href="http://www.usc.es">externa</a>.</p>
-    <p>Aquí enlazo con una posición diferente dentro de esta <a href="#otroParrafo">misma página</a>.</p> <!-- (1) -->
+    <p>
+        Aquí enlazo con una posición diferente dentro de esta
+        <a href="#otroParrafo">misma página</a>.
+    </p>
     <p>Aquí escribo un nuevo párrafo</p>
     <p>
         Aquí marco una posición dentro del párrafo, para ser <a id="otroParrafo">referenciada</a>
@@ -122,9 +125,6 @@ categorías.
     </body>
     </html>
     ```
-    
-    1. Se puede referenciar identificadores dentro de páginas externas, por ejemplo,
-       `#!html href="otraPagina.html#otraCosa"`.
 
 === "Previsualización"
 
