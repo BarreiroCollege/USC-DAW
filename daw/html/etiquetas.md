@@ -103,7 +103,7 @@ categorías.
 
 === "Ejemplo"
 
-    ```html hl_lines="11 15"
+    ```html hl_lines="11 16"
     <html>
     <head>
         <title>Mi segunda página web</title>
@@ -235,7 +235,7 @@ categorías.
         Ahora vamos a insertar imágenes.<br/>
         Se permiten usar los tipos más comunes.
     </p>
-    <p>PNG <img src="https://github.com/barreeeiroo.png?s=128"/></p>
+    <p>PNG <img src="https://github.com/barreeeiroo.png?size=128"/></p>
     </body>
     </html>
     ```
