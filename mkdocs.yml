@@ -108,3 +108,6 @@ nav:
     - SEO: html/seo.md
     - Robots: html/robots.md
     - Debug: html/debug.md
+    - Etiquetas: html/etiquetas.md
+  - CSS:
+    - css/index.md
