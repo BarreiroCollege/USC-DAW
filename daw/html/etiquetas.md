@@ -53,7 +53,7 @@ categorías.
 
 === "Previsualización"
 
-    <iframe width=700, height=500 frameBorder=0 src="ejemplos/tipografia.html"></iframe>
+    <iframe width=700, height=500 frameBorder=0 src="/html/ejemplos/tipografia.html"></iframe>
 
 ### Etiquetas de Formateo de Texto
 
