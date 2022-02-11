@@ -31,6 +31,11 @@ categorías.
 
 ### Etiquetas de Tipografía
 
+- **Heading** (cabecera): `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
+- **Párrafo**: `<p>`
+- **Enlace**: `<a>`
+- **Cita**: `<blockquote>`
+
 === "Ejemplo"
    
     ```html
@@ -56,6 +61,41 @@ categorías.
     <iframe width=700, height=500 frameBorder=0 src="/html/ejemplos/tipografia.html"></iframe>
 
 ### Etiquetas de Formateo de Texto
+
+- **Negrita**: `<strong>`, `<b>`
+- **Cursiva**: `<em>`, `<i>`
+- **Comillas**: `<q>`
+- **Salto de línea**: `<br>`
+- **Bloque de código**: `<pre>`
+
+=== "Ejemplo"
+   
+    ```html
+    <html>
+    <head>
+        <title>Mi segunda página web</title>
+    </head>
+    
+    <body>
+    <h1>Este es el encabezamiento</h1>
+    <p>
+        Aquí incluyo el texto que acompaña al encabezamiento. Puedo incluir
+        <strong>negrita</strong>, <em>cursiva</em> y <q>comillas</q> (esto último
+        si no se usa Internet Explorer.
+        También existe el salto <br/> de línea.
+        <pre>
+        Finalmente,
+        tengo la opción de escribir
+        de forma literal
+        </pre>
+    </p>
+    </body>
+    </html>
+   ```
+
+=== "Previsualización"
+
+    <iframe width=700, height=500 frameBorder=0 src="/html/ejemplos/formateo.html"></iframe>
 
 ### Etiqueta de Hiperenlace
 
