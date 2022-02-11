@@ -38,14 +38,14 @@ theme:
     - search.suggest
   palette:
     - scheme: default
-      primary: teal
-      accent: cyan
+      primary: deep orange
+      accent: blue
       toggle:
         icon: material/weather-sunny
         name: Cambia al modo oscuro
     - scheme: slate
-      primary: teal
-      accent: cyan
+      primary: deep orange
+      accent: blue
       toggle:
         icon: material/weather-night
         name: Cambia al modo claro
