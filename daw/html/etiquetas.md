@@ -132,6 +132,91 @@ categorías.
 
 ### Etiquetas de Listas
 
+- **Listas Ordenadas (`ol`)**: son listas en las cuales el orden lo fijan los números o letras que las acompañan.
+- **Listas No Ordenadas (`ul`)**: son listas en las cuales no se fija un orden, simplemente se incluyen los elementos
+  de la lista acompañándolos de un símbolo al inicio.
+- **Listas de Definición (`dl`)**: son listas en las cuales tampoco se fija un orden, sólamente se incluyen definiciones
+  de los diferentes elementos de la lista, sin acompañamiento de ningún símbolo al comienzo de cada ítem.
+
+#### ol, li
+
+=== "Ejemplo"
+
+    ```html
+    <html>
+    <head>
+        <title>Mi tercera página web</title>
+    </head>
+    
+    <body>
+    <h1>Este es el encabezamiento</h1>
+    <p>Ahora vamos a incluir listas.</p>
+    <h2>Listas ordenadas</h2>
+    <ol>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Etc.</li>
+    </ol>
+    </body>
+    </html>
+    ```
+
+=== "Previsualización"
+
+    <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/ol.html"></iframe>
+
+#### ul, li
+
+=== "Ejemplo"
+
+    ```html
+    <html>
+    <head>
+        <title>Mi tercera página web</title>
+    </head>
+    
+    <body>
+    <h2>Listas no ordenadas</h2>
+    <ul>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Etc.</li>
+    </ul>
+    </body>
+    </html>
+    ```
+
+=== "Previsualización"
+
+    <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/ul.html"></iframe>
+
+#### dl, dt, dd
+
+=== "Ejemplo"
+
+    ```html
+    <html>
+    <head>
+        <title>Mi tercera página web</title>
+    </head>
+    
+    <body>
+    <h2>Listas de definición</h2>
+    <dl>
+        <dt>Primera definición</dt>
+        <dd>Texto de la definición</dd>
+        <dt>Segunda definición</dt>
+        <dd>Texto de la definición</dd>
+    </dl>
+    </body>
+    </html>
+    ```
+
+=== "Previsualización"
+
+    <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/dl.html"></iframe>
+
+
 ### Etiqueta de Imágen
 
 ### Etiquetas de Tablas
