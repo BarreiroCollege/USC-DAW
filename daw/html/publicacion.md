@@ -43,8 +43,8 @@ Y finalmente, a la persona que registra un dominio a través de un _Registrar_, 
     caos. Sin embargo, Google es capaz de ser tanto _Registry_ como _Registrar_, ya que ellos tienen sus propios TLD
     (como `.google` o `.dev`).  
     Esto lo consiguen operando como _Registry_ bajo otro nombre: **Charleston Road Registry**. Es decir, a la hora de
-    comprar un dominio a través de Google, Google (_Registrar_) registrará el dominio y notificará a CRR (_Registry_)
-    de que ese dominio ha sido registrado.
+    comprar un dominio cuyo TLD es propiedad de Google, Google (_Registrar_) registrará el dominio y notificará a CRR
+    (_Registry_) de que ese dominio ha sido registrado.
 
 Simplemente mencionar además, que hay todo un mercado por detrás de los dominios de compra-venta. Existen revendedores
 de dominio que se encargan de adquirir dominios no renovados y venderlos a una cantidad superior al coste, o empresas
