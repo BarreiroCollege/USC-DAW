@@ -9,7 +9,7 @@ Algunas de las buenas prácticas más comunes son:
 - **Uso de palabras clave**
     - En el título: `#!html <title>`. 
     - En los encabezados: `#!html <h1>`. 
-    - Uso de los atributos alt en las imágenes: `#!html <img alt="..."/>`. 
+    - Uso de los atributos `alt` en las imágenes: `#!html <img alt="..."/>`. 
 - **Uso de palabras clave explícitas**
     - Etiquietas `meta` en `head`: `#!html <meta name="keywords" content="...,...,..."/>`.
 - **Inclusión de descripción explícita**
