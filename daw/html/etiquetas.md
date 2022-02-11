@@ -248,10 +248,10 @@ categorías.
 
 - **Tabla**: `<table>`
 - **Título**: `<caption>`
-- **Cabecera**: `<thead>`, `<th>`
-- **Fila**: `<tr>`
-- **Datos**: `<tbody>`, `<td>`
-- **Pie**: `<tfoot>`
+- **Cabecera** (_Header_): `<thead>`, `<th>`
+- **Fila** (_Row_): `<tr>`
+- **Datos** (_Data_): `<tbody>`, `<td>`
+- **Pie** (_Footer_): `<tfoot>`
 
 !!! faq "Etiquetas semánticas"
 
