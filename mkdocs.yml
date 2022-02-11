@@ -96,5 +96,5 @@ markdown_extensions:
 nav:
   - Introducción:
     - index.md
-    - HTML:
-      - index.md
+  - HTML:
+    - index.md

@@ -13,7 +13,7 @@ convertirá con el paso de los años en el estándar para la visualización de c
     **Herramienta que interpreta el código HTML escrito en la página web**. Siempre que se hable de navegador se habla
     de "cliente", llegando en algún caso a ser sinónimos.
 
-!!! tipo "Motor de Renderizado"
+!!! tip "Motor de Renderizado"
 
     Cada navegador tiene sus propios motores, los cuales se definen como **parte del navegador encargada de tomar el
     contenido y la información de formato para crear la representación visual de la página**.  
@@ -23,7 +23,8 @@ convertirá con el paso de los años en el estándar para la visualización de c
     incluso incompatibilidades.
 
 
-[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[^1]: Tomado de HTML: [Lenguaje de etiquetas de hipertexto](https://developer.mozilla.org/es/docs/Web/HTML), de MDN Web
+      Docs.
 
 *[HTML]: Hyper Text Markup Language
 *[UI]: User Interface
