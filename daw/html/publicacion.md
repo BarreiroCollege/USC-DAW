@@ -2,14 +2,14 @@
 
 Para entender la publicación de páginas web estáticas, es necesario entender la estructura de las direcciones URL:
 
-- **https://www.lawebdepepe.com/index.html**
-  - **`https`**: Protocolo con el que se accede.
-  - **`www.lawebdepepe.com`**: Nombre del servidor (asociado a una IP, con _excepciones_). [1^]
-    - **`www`**: Subdominio del dominio (cabe mencionar que se pueden crear múltiples subdominios a diferente nivel, ya
-      que una vez se tiene el dominio, _todo lo anterior_ es personalizable).
-    - **`lawebdepepe.com`**: Dominio de la página.
-      - **`com`**: TLD, o dominio de nivel superior.
-  - **index.html**: Ruta a la que acceder del servidor. Se deberá definir el origen en el servidor.
+- **`https://www.lawebdepepe.com/index.html`**
+    - **`https`**: Protocolo con el que se accede.
+    - **`www.lawebdepepe.com`**: Nombre del servidor (asociado a una IP, con _excepciones_). [^1]
+        - **`www`**: Subdominio del dominio (cabe mencionar que se pueden crear múltiples subdominios a diferente nivel, ya
+          que una vez se tiene el dominio, _todo lo anterior_ es personalizable).
+        - **`lawebdepepe.com`**: Dominio de la página.
+            - **`com`**: TLD, o dominio de nivel superior.
+    - **`index.html`**: Ruta a la que acceder del servidor. Se deberá definir el origen en el servidor.
   
 ## Disponibilidad
 
@@ -23,7 +23,7 @@ Internet. Esto puede cumplirse, por ejemplo, con alguna de estas opciones:
 ## Organizaciones Involucradas
 
 En caso de querer **hacer pública una web a través de un nombre de dominio**, es necesario ser propietario de algún
-dominio, los cuales son de pago y se **renuevan anualmente**. [2^]  
+dominio, los cuales son de pago y se **renuevan anualmente**. [^2]  
 El proceso de registro de dominio es bastante sencillo, pero hay varios tipos de empresas y organizaciones involucradas:
 
 - **ICANN**: _Corporación de Internet para la Asignación de Nombres y Números_. Son una organización sin ánimo de lucro,
@@ -67,9 +67,9 @@ Los datos que se almacenan son, entre otros: nombre y apellidos, dirección, tel
 común que esas 4 personas sean la misma**.
 
 
-[1^] Es posible asociar los nombres de dominios a otros nombres de dominios (registros `CNAME`), pero en algún punto
+[^1] Es posible asociar los nombres de dominios a otros nombres de dominios (registros `CNAME`), pero en algún punto
      deberá haber una IP para poder resolver la dirección final.
-[2^] Hay una serie de dominios que son gratis, los cuales son adquiribles a través de [Freenom](https://freenom.com).
+[^2] Hay una serie de dominios que son gratis, los cuales son adquiribles a través de [Freenom](https://freenom.com).
      Sin embargo, por este mismo motivo de ser gratis, suelen tener mala reputación por ser causa frecuente de
      actividades maliciosas.
 
