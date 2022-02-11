@@ -11,7 +11,7 @@ dev_addr: '127.0.0.1:8008'
 # Repository
 repo_name: Apuntes DAW
 repo_url: https://github.com/BarreiroCollege/ApuntesDAW
-edit_uri: blob/master/daw/
+edit_uri: blob/main/daw/
 
 # Copyright text in the footer
 copyright: Diego Barreiro &copy; 2021-2022
