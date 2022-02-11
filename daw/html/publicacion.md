@@ -4,7 +4,7 @@ Para entender la publicación de páginas web estáticas, es necesario entender 
 
 - **`https://www.lawebdepepe.com/index.html`**
     - **`https`**: Protocolo con el que se accede.
-    - **`www.lawebdepepe.com`**: Nombre del servidor (asociado a una IP, con _excepciones_). [^1]
+    - **`www.lawebdepepe.com`**: Nombre del servidor (asociado a una IP, con _excepciones_).[^1]
         - **`www`**: Subdominio del dominio (cabe mencionar que se pueden crear múltiples subdominios a diferente nivel, ya
           que una vez se tiene el dominio, _todo lo anterior_ es personalizable).
         - **`lawebdepepe.com`**: Dominio de la página.
@@ -23,7 +23,7 @@ Internet. Esto puede cumplirse, por ejemplo, con alguna de estas opciones:
 ## Organizaciones Involucradas
 
 En caso de querer **hacer pública una web a través de un nombre de dominio**, es necesario ser propietario de algún
-dominio, los cuales son de pago y se **renuevan anualmente**. [^2]  
+dominio, los cuales son de pago y se **renuevan anualmente**.[^2]  
 El proceso de registro de dominio es bastante sencillo, pero hay varios tipos de empresas y organizaciones involucradas:
 
 - **ICANN**: _Corporación de Internet para la Asignación de Nombres y Números_. Son una organización sin ánimo de lucro,
@@ -38,10 +38,10 @@ Y finalmente, a la persona que registra un dominio a través de un _Registrar_, 
 
 !!! tip "Google como Registry y Registrar"
 
-    Una norma que tiene la ICANN sobre **los _Registry_ y los _Registrar_ deben ser entidades separadas**. Un _Registry_
-    nunca podrá vender ni asignar dominios, solo mantener los datos como lugar "centralizado" para evitar el caos. Sin
-    embargo, Google es capaz de ser tanto _Registry_ como _Registrar_, ya que ellos tienen sus propios TLD (como
-    `.google` o `.dev`).  
+    Una norma que tiene la ICANN sobre **los _Registry_ y los _Registrar_ es que deben ser entidades separadas**. Un
+    _Registry_ nunca podrá vender ni asignar dominios, solo mantener los datos como lugar "centralizado" para evitar el
+    caos. Sin embargo, Google es capaz de ser tanto _Registry_ como _Registrar_, ya que ellos tienen sus propios TLD
+    (como `.google` o `.dev`).  
     Esto lo consiguen operando como _Registry_ bajo otro nombre: **Charleston Road Registry**. Es decir, a la hora de
     comprar un dominio a través de Google, Google (_Registrar_) registrará el dominio y notificará a CRR (_Registry_)
     de que ese dominio ha sido registrado.
@@ -67,11 +67,11 @@ Los datos que se almacenan son, entre otros: nombre y apellidos, dirección, tel
 común que esas 4 personas sean la misma**.
 
 
-[^1] Es posible asociar los nombres de dominios a otros nombres de dominios (registros `CNAME`), pero en algún punto
-     deberá haber una IP para poder resolver la dirección final.
-[^2] Hay una serie de dominios que son gratis, los cuales son adquiribles a través de [Freenom](https://freenom.com).
-     Sin embargo, por este mismo motivo de ser gratis, suelen tener mala reputación por ser causa frecuente de
-     actividades maliciosas.
+[^1]: Es posible asociar los nombres de dominios a otros nombres de dominios (registros `CNAME`), pero en algún punto
+      deberá haber una IP para poder resolver la dirección final.
+[^2]: Hay una serie de dominios que son gratis, los cuales son adquiribles a través de [Freenom](https://freenom.com).
+      Sin embargo, por este mismo motivo de ser gratis, suelen tener mala reputación por ser causa frecuente de
+      actividades maliciosas.
 
 *[URL]: Uniform Resource Locator
 *[TLD]: Top-Level Domain
