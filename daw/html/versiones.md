@@ -3,6 +3,9 @@
 En **HTML 4** y **XHTML 1**, se definieron varios tipos de versiones, siendo unas más flexibles que otras para poder
 usar (o no) etiquietas personalizadas.
 
+Vienen definidas por DTD, y se incluyen en el `DOCTYPE`. Estas ya **no son necesarias en HTML 5**, pero W3C sigue
+manteniendo el validador [validator.w3.org](http://validator.w3.org/).
+
 ## Estricta
 
 === "HTML"
@@ -57,3 +60,6 @@ Se permite el uso de etiquetas no aprobadas y obsoletas (como `<font>`).
 
 Al igual que en la transitoria, se permite el uso de etiquietas no aprobadas y obsoletas, pero además se permite el uso
 de marcos (_frames_, `<frameset>`), los cuales están desaconsejados por W3C en la actualidad.
+
+
+*[DTD]: Document Type Definition
