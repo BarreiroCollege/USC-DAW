@@ -1,0 +1,27 @@
+name: Build Mkdocs
+
+on:
+  push:
+    branches: [ master ]
+    tags: [ '*' ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Deploy docs
+      uses: mhausenblas/mkdocs-deploy-gh-pages@master
+
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CONFIG_FILE: mkdocs.yml
+        EXTRA_PACKAGES: build-base
+        REQUIREMENTS: requirements.txt

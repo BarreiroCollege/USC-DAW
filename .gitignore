@@ -1,0 +1,8 @@
+site/
+_site/
+*-venv/
+venv-*/
+src/
+.idea/
+.vscode/
+__pycache__/

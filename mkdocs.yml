@@ -1,0 +1,119 @@
+# Site Config
+site_name: Apuntes DAW
+site_description: Apuntes de la materia Desarrollo de Aplicaciones Web
+site_author: ETSE USC
+site_url: https://daw.lawebdepepe.com/
+docs_dir: daw
+
+# Dev
+dev_addr: '127.0.0.1:8008'
+
+# Repository
+repo_name: Apuntes DAW
+repo_url: https://github.com/BarreiroCollege/ApuntesDAW
+edit_uri: blob/master/daw/
+
+# Copyright text in the footer
+copyright: Diego Barreiro &copy; 2021-2022
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://diego.barreiro.xyz
+      name: Mi Web Personal
+  generator: false
+
+# Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
+theme:
+  name: 'material'
+  language: es
+  features:
+    - content.tabs.link
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Cambia al modo oscuro
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Cambia al modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: date
+      timezone: Europe/Madrid
+      locale: es
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - codehilite
+  - def_list
+  # Markdown extensions: https://python-markdown.github.io/extensions/
+  - admonition
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  # PyMdown Extensions
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Site navigation in the side bar
+nav:
+  - Reservas:
+    - index.md
+    - Proceso de Reserva: proceso.md
+  - Administración:
+    - admin/index.md
+    - Permisos: admin/permisos.md
+    - Superadmin:
+      - admin/superadmin/index.md
+      - Asignación de Permisos: admin/superadmin/asignacion.md
+      - Gestión de Superadmins: admin/superadmin/superadmins.md
+      - Registro de Acciones: admin/superadmin/registro.md
+    - Eventos:
+      - admin/eventos/index.md
+    - Reservas:
+      - admin/reservas/index.md
+    - Ventas:
+      - admin/ventas/index.md
+    - Mesa:
+      - admin/mesa/index.md
+      - Gestión de Enlaces: admin/mesa/enlaces.md
+      - Publicación de Mesas: admin/mesa/mesas.md
+  - Soporte:
+      - soporte/index.md
+      - Política de Privacidad: soporte/privacidad.md
+      - Estado: soporte/estado.md
