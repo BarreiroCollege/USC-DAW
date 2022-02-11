@@ -27,7 +27,7 @@ convertirá con el paso de los años en el estándar para la visualización de c
 
 - **Antes de 1993**: Había navegadores con pocas funcionalidades (WWW > Nexus).
 - **1993**: ^^Marc Andressen^^ desarrolla el _Mosaic_ en la NCSA.
-- **1994: Surge Netscape, la cual incluye extensiones HTML propias que permiten ver texto coloreado, fotografías, etc.
+- **1994**: Surge Netscape, la cual incluye extensiones HTML propias que permiten ver texto coloreado, fotografías, etc.
 En ese momento Microsoft contraataca con Internet Explorer, y empieza la guerra de los navegadores.
 - **1994**: En consecuencia, se crea el consorcio W3C (juego de palabras de _Triple-W consorcium_) gracias a ^^Tim
 Berners-Lee^^, para poner orden y establecer estándares.
