@@ -26,8 +26,8 @@ Esto se consigue con la etiquieta `<meta>`, la cual tiene otras funciones:
 Los valores disponibles aparecen en la [lista de W3C](http://www.w3.org/International/O-Charset-lang.html). Por
 ejemplo, para el español sería `iso-8859-1`.
 
-Sin embargo, estos valores se encuentran obsoletos en la actualidad. Hoy en día se utiliza la codificación `UTF-8`, la
-cual incluye casi todos los caracteres ya de manera universal:
+Sin embargo, estos valores se encuentran obsoletos en la actualidad. Hoy en día se utiliza la **codificación `UTF-8`**,
+la cual incluye casi todos los caracteres ya de manera universal:
 
 ```html
 <meta http-equiv="content-type" content="text/html; charset=utf8"/>
