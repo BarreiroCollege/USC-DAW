@@ -29,6 +29,7 @@ theme:
   name: 'material'
   language: es
   features:
+    - content.code.annotate
     - content.tabs.link
     - navigation.indexes
     - navigation.tabs
@@ -112,3 +113,5 @@ nav:
     - HTML 5: html/html5.md
   - CSS:
     - css/index.md
+    - Uso: css/uso.md
+    - Selectores: css/selectores.md
