@@ -62,7 +62,6 @@ plugins:
       timezone: Europe/Madrid
       locale: es
       fallback_to_build_date: true
-  - pdf-export
 
 markdown_extensions:
   - abbr
