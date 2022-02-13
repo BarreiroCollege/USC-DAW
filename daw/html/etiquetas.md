@@ -301,9 +301,3 @@ categorías.
 === "Previsualización"
 
     <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/tabla.html"></iframe>
-
-## HTML 5
-
-### Nuevas Etiquetas
-
-### Otros Cambios

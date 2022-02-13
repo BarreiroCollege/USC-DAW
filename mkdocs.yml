@@ -109,5 +109,6 @@ nav:
     - Robots: html/robots.md
     - Debug: html/debug.md
     - Etiquetas: html/etiquetas.md
+    - HTML 5: html/html5.md
   - CSS:
     - css/index.md
