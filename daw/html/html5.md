@@ -45,10 +45,29 @@ pero ayudarán a estructurar mejor el contenido de las páginas.
 - `#!html <footer>`
 - `#!html <header>`
 - `#!html <main>`
-- `#!html <mark>`
 - `#!html <nav>`
 - `#!html <section>`
 - `#!html <summary>`
+
+Se crean también otras etiquietas para **usar diferentes tipos de recursos**:
+
+- `#!html <audio>`
+- `#!html <canvas>`
+- `#!html <iframe>`
+- `#!html <track>`
+- `#!html <video>`
+
+Y otras etiquietas con distintos usos:
+
+- `#!html <mark>`
+- `#!html <meter>`
+- `#!html <progress>`
 - `#!html <time>`
 
 ## Otros Cambios
+
+- [Nuevos **atributos**](https://www.w3.org/TR/html5-diff/#new-attributes)
+- Acceso mejorado a **elementos DOM** mediante JavaScript
+- [Nuevas **API's**](https://www.w3.org/TR/html5-diff/#new-apis) nativas (_se van añadiendo nuevas continuamente_)
+
+*[DOM]: Document Object Model
