@@ -70,4 +70,5 @@ Y otras etiquietas con distintos usos:
 - Acceso mejorado a **elementos DOM** mediante JavaScript
 - [Nuevas **API's**](https://www.w3.org/TR/html5-diff/#new-apis) nativas (_se van añadiendo nuevas continuamente_)
 
+
 *[DOM]: Document Object Model
