@@ -30,3 +30,4 @@ continuación:
 ## Apuntes
 
 - **Tema 2**: [HTML](html/index.md)
+- **Tema 3**: [CSS](css/index.md)
