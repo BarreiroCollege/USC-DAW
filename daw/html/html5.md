@@ -32,4 +32,23 @@ diversas nuevas funciones.
 
 ## Nuevas Etiquetas
 
+Además, se crean **nuevas etiquietas con denominación semántica**. A efectos prácticos, se tratarán como `#!html <div>`,
+pero ayudarán a estructurar mejor el contenido de las páginas.
+
+![Elementos Semánticos](https://www.w3schools.com/html/img_sem_elements.gif){ align=right }
+
+- `#!html <article>`
+- `#!html <aside>`
+- `#!html <details>`
+- `#!html <figcaption>`
+- `#!html <figure>`
+- `#!html <footer>`
+- `#!html <header>`
+- `#!html <main>`
+- `#!html <mark>`
+- `#!html <nav>`
+- `#!html <section>`
+- `#!html <summary>`
+- `#!html <time>`
+
 ## Otros Cambios
