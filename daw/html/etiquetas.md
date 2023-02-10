@@ -316,10 +316,10 @@ categorías.
     <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/tabla.html"></iframe>
 
 
-* [APNG]: Animated Portable Network Graphics
-* [AVIF]: AV1 Image File Format
-* [GIF]: Graphics Interchange Format
-* [JPEG]: Joint Photographic Expert Group image
-* [PNG]: Portable Network Graphics
-* [SVG]: Scalable Vector Graphics
-* [WebP]: Web Picture format
+*[APNG]: Animated Portable Network Graphics
+*[AVIF]: AV1 Image File Format
+*[GIF]: Graphics Interchange Format
+*[JPEG]: Joint Photographic Expert Group image
+*[PNG]: Portable Network Graphics
+*[SVG]: Scalable Vector Graphics
+*[WebP]: Web Picture format
