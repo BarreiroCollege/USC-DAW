@@ -221,6 +221,19 @@ categorías.
 
 - **Imagen**: `<img>`
 
+??? abstract "Formatos Permitidos"
+
+    * APNG
+    * AVIF
+    * GIF
+    * JPEG
+    * PNG
+    * SVG
+    * WebP
+
+    Se recomienda el uso de los formatos WebP y AVIF, ya que tienen mucha mejor eficiencia en la web. AVIF
+    no es compatible con Safari.
+
 === "Ejemplo"
 
     ```html
@@ -301,3 +314,12 @@ categorías.
 === "Previsualización"
 
     <iframe width="700" height="300" frameBorder="0" src="/html/ejemplos/tabla.html"></iframe>
+
+
+* [APNG]: Animated Portable Network Graphics
+* [AVIF]: AV1 Image File Format
+* [GIF]: Graphics Interchange Format
+* [JPEG]: Joint Photographic Expert Group image
+* [PNG]: Portable Network Graphics
+* [SVG]: Scalable Vector Graphics
+* [WebP]: Web Picture format
