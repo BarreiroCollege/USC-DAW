@@ -14,7 +14,17 @@ La caja se compone de cuatro elementos:
 
 ??? summary "Clica aquí para ver los elementos"
 
-    ![Caja](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model/boxmodel-(3).png)
+    ![Caja](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model/boxmodel.png)
+
+## `box-sizing`
+
+El modelo de caja se aplica en CSS mediante la propiedad `box-sizing`. Esta puede tomar dos valores diferentes:
+
+* **`content-box`** (predeterminada): _border_ y _padding_ no entran en el cómputo para _width_ y _height_
+* **`border-box`**: _border_ y _padding_ sí entran en el cómputo para _width_ y _height_
+
+Es recomendable utilizar el método `border-box`, de tal forma que la parte "visible" esté siempre computable dentro
+del ancho y el alto del elemento (a pesar de que la predeterminada sea otra).
 
 
 [^1]: Tomado de [Introducción al Modelo de Caja de CSS](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model),

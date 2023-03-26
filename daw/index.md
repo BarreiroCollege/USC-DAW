@@ -29,6 +29,6 @@ continuación:
 
 ## Apuntes
 
-- **Tema 1**: [HTML](intro/index.md)
+- **Tema 1**: [Introducción](intro/index.md)
 - **Tema 2**: [HTML](html/index.md)
 - **Tema 3**: [CSS](css/index.md)
